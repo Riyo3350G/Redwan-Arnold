@@ -6,6 +6,25 @@
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
+    @media only screen and (max-width: 720px) {
+    .image-wrapper {
+      grid-template-columns: 1fr;
+    }
+    i {
+      color: yellow;
+    }
+    #submit {
+      background-color: yellow;
+    }
+    input {
+      font-weight: bold;
+      font-size: 15;
+    }
+    .btn {
+      color: blue;
+      padding-top: 
+    }
+}
 
   </style>
 </head>
@@ -23,7 +42,7 @@
 
 <h3>Enter your mail below</h3>
 <form action="https://www.freecodecamp.com/email-submit" id="form">
-  <input type="email"  id="email" placeholder="Enter your Email">
+  <input name="email" type="email"  id="email" placeholder="Enter your Email">
 
   <input type="submit" id="submit" value="Submit">
 </form>
