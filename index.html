@@ -5,50 +5,63 @@
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    @media only screen and (max-width: 720px) {
-    .image-wrapper {
-      grid-template-columns: 1fr;
-    }
-    i {
-      color: yellow;
-    }
-    #submit {
-      background-color: yellow;
-    }
-    input {
-      font-weight: bold;
-      font-size: 15;
-    }
-    .btn {
-      color: blue;
-      padding-top: 
-    }
-}
 
-  </style>
 </head>
 
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  Hello World, we are Software Developers!
-  <header id="header">
-    <img id="header-img">
+  <!-- Hello World, we are Software Developers! -->
+  <header id="header" >
+    
+   <div class="top">
+    <img id="header-img" style="height: 50px; border-radius: 50%;" src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
     <nav id="nav-bar">
       <li><a class="nav-link" href="#features">Features</a></li>
       <li><a class="nav-link" href="#How-t-Works">How it Works</a></li>
       <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+   </div>
 
-<h3>Enter your mail below</h3>
+<h3 class="heading-text">Enter your mail below</h3>
 <form action="https://www.freecodecamp.com/email-submit" id="form">
+ <div class="input-one">
   <input name="email" type="email"  id="email" placeholder="Enter your Email">
+ </div>
 
-  <input type="submit" id="submit" value="Submit">
+  <div class="input-one">
+    <input type="submit" id="submit" value="Submit" class="input-two">
+  </div>
 </form>
-      <section id="features"></section>
-      <section id="How-t-Works"></section>
-      <section id="Pricing"></section>
+      <section id="features">
+        <div class="features">
+          <div class="feature-one">
+            <h1>We sell</h1>
+            <img class="feature-img" src="https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            <button>Buy Now</button>
+
+          </div>
+          <div class="feature-two">
+            <h1>We Buy</h1>
+            <img class="feature-img" src="https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            <button>Sell Now</button>
+
+          </div>
+          <div class="feature-three">
+            <h1>We Exchange</h1>
+            <img class="feature-img" src="https://images.unsplash.com/photo-1556742212-5b321f3c261b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60https://unsplash.com/photos/E2HgkL3LaFE" alt="img-diff">
+            <button>Exchange Now</button>
+
+          </div>
+        </div>
+      </section>
+      <section id="How-t-Works">
+        <h1 class="product-how">How Our Product Works</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ipsa at aspernatur eligendi porro fugiat magnam impedit quod nemo aliquam laudantium voluptatibus, maxime quae accusamus debitis alias veritatis. Ex nihil corporis dignissimos, provident deleniti, dolores enim magni, impedit tempore deserunt excepturi officia eligendi possimus perspiciatis. Iste quis modi quas ad, quos consequatur necessitatibus libero nam aliquam, esse tenetur laudantium sit!zz</p>
+      </section>
+      <section id="Pricing">
+
+        
+      </section>
 
       <iframe id="video" height="315"
         src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
